@@ -1,0 +1,302 @@
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo
+{
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    color: bisque;
+}
+
+.menu
+{
+    float: right;
+}
+
+nav 
+{
+    background-color: rgb(0, 174, 255);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1;
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li
+{
+    float: left;
+}
+
+nav ul li a
+{
+    color: bisque;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+    color: aliceblue;
+    transition: 0.8s;
+}
+
+.welcome
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(50, 133, 205);
+    background-image: url('https://blog.wecare.id/wp-content/uploads/2020/11/Sedekah.jpg');
+}
+
+.btn
+{
+    background: rgb(112, 160, 194);
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 12px 60px 12px 60px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn:hover
+{
+    color: #3A6351;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.tengah
+{
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.tengah :after
+{
+    content: '';
+    position: absolute;
+    bottom: -820px;
+    width: 100%;
+    height: 200px;
+    right: 0px;
+}
+
+.listDonasi
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.fotoDonasi
+{
+    width: 35%;
+    margin: 0 auto;
+}
+
+.fotoDonasi img
+{
+    border-radius: 20%;
+    box-shadow: 1px 10px 20px 0px rgba(0,0,0.65);
+    -webkit-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65); 
+}
+
+.kolom
+{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    color:rgb(0, 174, 255);
+    ;
+    font-weight: 600;
+}
+
+.fotoDonasi a
+{
+    position: center;
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fotoDonasi p
+{
+    color: #fff;
+}
+
+.fotoDonasi a:hover
+{
+    text-decoration: underline;
+    color: rgb(11, 181, 228);
+    transition: 1s;
+}
+
+.fotoDonasi:before
+{
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 200px;
+    right: 0px;
+}
+
+.listZakat
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.fotoZakat
+{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.fotoZakat img
+{
+    width: 80%;
+    border-radius: 20%;
+    box-shadow: 1px 10px 20px 0px rgba(0,0,0.65);
+    -webkit-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+}
+
+.kolom1
+{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: #3A6351;
+    font-weight: 600;
+}
+
+.fotoZakat a
+{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fotoZakat p{
+    color: #fff;
+}
+
+.listZakat:before
+{
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 200px;
+    right: 0px;
+}
+
+.tengah1
+{
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tengah1:after
+{
+    content: '';
+    position: absolute;
+    top: 180.2rem;
+    width: 100%;
+    height: 60px;
+    right: 0px;
+}
+
+.tengah:before
+{
+    content: '';
+    position: absolute;
+    top: 177rem;
+    width: 100px;
+    height: 60px;
+    right: 0px;
+}
+
+.kolom1
+{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: rgb(0, 174, 255);
+    font-weight: 600;
+}
+
+.kolom1 h2
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+

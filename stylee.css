@@ -1,0 +1,31 @@
+*
+{
+    text-decoration: none;
+    margin: 8;
+    padding: 8;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: auto;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+img{
+    width: 40%;
+    height: auto;
+    background-color: brown;
+    margin: 0 auto;
+    float: right;
+
+
+    
+}
+body{
+    display: 0;
+    margin: 0;    
+}
+
+
+
